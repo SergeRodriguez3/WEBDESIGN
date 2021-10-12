@@ -1,0 +1,210 @@
+
+body {
+    background-color:rgb(121,104,120);
+    font-family: 'Otomanopee One', sans-serif;
+    
+  }
+  h1 {
+    color: whitesmoke;
+    width: 1500px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px 150px 30px 150px;
+    text-align: center;
+    
+  }
+  h2 {
+    color: azure;
+    width: 600px;
+    border: 30px;
+    padding: 100px;
+    margin: 40px;
+    
+  }
+ 
+  form {
+    color: whitesmoke;
+    
+  }    
+  li {
+    color: whitesmoke;
+    font-size: medium;
+    display: inline-block;
+    padding: 10px 20px;
+    
+  }
+  th {
+    color: whitesmoke;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: relative;
+    left: 40px;
+    border: 5px solid #1028b4;
+    
+  
+  }
+  td {
+    color:whitesmoke;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: relative;
+    left: 40px;
+    border: 5px solid #1028b4;
+    
+  }
+  div {
+    color:whitesmoke;
+    font-size: large;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center center;    
+  }
+
+  .space{
+    padding :80px;
+  }
+  ul { 
+      list-style-type: none;
+      list-style-position: outside; 
+      overflow: hidden;
+      background-color: rgb(105,125,151); 
+      
+    }
+
+  .textp {
+    color:whitesmoke;
+    text-align: center;
+    line-height: 200%;
+    word-spacing: 20PX;
+    font-size: xx-large;
+    }
+    
+    .nav-bar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: 30px;
+      list-style-type: none;
+      align-items: baseline;  
+      background-image: linear-gradient(to right,	rgb(121,104,120),rgb(105,125,151));
+    }/* agregado gradiente a la nav bar*/
+
+    img {
+      vertical-align: middle;
+      width: 100px;
+      height: 100px;
+    }
+
+    footer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: medium;
+      list-style-type: none;
+      align-items: baseline;  
+      background-image: linear-gradient(to left,	rgb(121,104,120),rgb(105,125,151));
+    }
+    button{
+      height: 50px;
+      width: 100px;
+      padding: 10px;
+    }
+
+   ul ul {
+      position: absolute;
+      display: none;
+     
+   }
+   ul ul li {
+      display: block;
+      
+   }
+   
+   ul li:hover ul {
+      display:block;
+      height: 150px; width: 200px;
+      padding: 20px;
+      background-color: rgb(105,125,151);
+      transform: translate(10px, 20px);
+      
+   }
+  .background{
+    background-image:url('thumb-1920-1077466.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  /*prueba grids*/
+  #grilla {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    justify-items: center;
+    justify-content: center;
+    align-items: baseline;
+ }
+ 
+  header {
+  display:flex;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: baseline;
+  }
+
+section#presentacion {
+height: 500px; 
+}
+  
+.border {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.tablecosmo{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  padding: 20px;
+
+}
+.runestext{
+  display: flex;
+  align-content: center;
+  text-transform: uppercase;
+  justify-items: flex-start;
+  text-size-adjust: 50px;
+  margin: 75px 75px 75px 75px;
+}
+.runeslinks{
+  display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: xx-large;
+      list-style-type: none;
+      align-items: baseline;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding:25px;  
+  
+}
+.menutext{
+  color: black;
+  text-align: center;
+  line-height: 200%;
+  word-spacing: 20PX;  
+}
+
+.animacionscale:hover{
+  transform: scale(3,2);
+  transition: all 1s;
+}/*transiciones y transformaciones en la tab "cosmology"*/

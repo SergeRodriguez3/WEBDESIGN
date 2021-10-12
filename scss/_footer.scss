@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: medium;
+    list-style-type: none;
+    align-items: baseline;  
+    background-image: linear-gradient(to left,	rgb(121,104,120),rgb(105,125,151));
+    .footer__border {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding: 5px;
+      }
+    .footer__img {
+      vertical-align: middle;
+      width: 100px;
+      height: 100px;
+  }
+    .footer__text--style{
+      color:whitesmoke;
+      text-align: center;
+      line-height: 200%;
+      word-spacing: 20PX;
+      font-family: 'Otomanopee One', sans-serif; 
+    }
+}

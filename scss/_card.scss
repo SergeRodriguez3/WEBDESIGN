@@ -1,0 +1,14 @@
+$color_nordic:rgb(121,104,120);
+
+.card{
+    display: flex;
+    align-items: center;
+    background-color: $color_nordic;
+    .card__background{
+      background-color: rgb(105,125,151);
+    }
+    .card__text{
+      font-family: 'Otomanopee One', sans-serif; 
+      color: whitesmoke;
+      }
+  }
